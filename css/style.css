@@ -1,0 +1,142 @@
+
+*{
+    background-color:hsl(204, 60%, 80%);
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: w95fa;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    line-height: 50px;
+    padding: 140px 0;
+    width: auto 1000px;
+}
+
+.header-img {
+    width: 200px;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 140px;
+    justify-content: space-between;
+    position: fixed;
+    padding: 30px 10%;
+    width: 100%;
+    z-index: 1;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2, .level{
+    font-size: 1.3rem;
+}
+
+.feature{
+    margin-top: 15px;
+}
+
+ul{
+    display: flex;
+}
+
+form{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.input-email{
+    padding: 5px 50px;
+    margin: 0;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+button, #submit{
+    background-color: #e4e398;
+    padding: 5px 10px
+}
+
+a:hover{
+    color: hsl(5, 82%, 35%);
+}
+
+#submit:hover ,button:hover{
+    background-color: hsl(92, 45%, 80%);
+}
+
+.iframe-container{
+    height: 0;
+    margin: 150px 0;
+    position: relative;
+    padding-bottom: 56.25%; 
+    width: 100%;
+    z-index: 0;
+  }
+
+  .iframe-container iframe{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top:0;
+    width: 100%;
+  }
+
+
+li{
+    list-style: none;
+    margin: 0 30px;
+}
+
+#pricing{
+    display:flex;
+    flex-wrap: wrap;
+}
+.product{
+    align-items: center;
+    border: solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+@media (max-width: 480px) {
+    main{
+        margin-left: 30px;
+        width: 250px;
+        max-width: 100%;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
